@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classroom I</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="nav-brand">Classroom Report Card</h1>
+    </nav>
+    
+    <main class="container">
+        <form id="grades-form">
+            <label class="label" for="your-grade">Enter grade</label>
+            <input type="number" min="0" max="100" class="input" required placeholder="Grade (0 and 100)" id="your-grade">
+            <input type="submit" class="btn btn-accent" value="Add" />
+        </form>
+    
+        <table border="1" id="stats-table" class="table table-center">
+            <thead>
+                <tr>
+                    <th width="25%">Number of tests taken</th>
+                    <th width="25%">Sum of grades</th>
+                    <th width="25%">Avarage Number</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+        <table border="1" id="stats-table2" class="table table-center">
+            <thead>
+                <tr>
+                    <th width="25%">GRADE A</th>
+                    <th width="25%">GRADE B+</th>
+                    <th width="25%">GRADE B</th>
+                    <th width="25%">GRADE B-</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+        <table border="1" id="stats-table3" class="table table-center">
+            <thead>
+                <tr>
+                    <th width="25%">GRADE C+</th>
+                    <th width="25%">GRADE C</th>
+                    <th width="25%">GRADE C-</th>
+                    <th width="25%">GRADE D+</th>
+                 
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+
+        <table border="1" id="stats-table4" class="table table-center">
+            <thead>
+                <tr>
+                    <th width="20%">GRADE D</th>
+                    <th width="20%">GRADE F</th>
+                    <th width="20%">Avobe 95</th>
+                    <th width="40%">Total Passed</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+
+        <table border="1" id="stats-table5" class="table table-center">
+            <thead>
+                <tr>
+                    <th>Inputed Marks</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>
